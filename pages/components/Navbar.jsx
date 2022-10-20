@@ -2,6 +2,7 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import Homepage from './Homepage';
 
+
 function NavBar() {
 return(
     <section className="min-h-screen">

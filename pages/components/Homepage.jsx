@@ -1,7 +1,10 @@
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillQuora} from 'react-icons/ai'
 import {SiQuora} from 'react-icons/si'
-import Image from 'next/image'
-import wave from '../public/dev-ed-wave.png'
+import Card from './Card';
+import Services from './Services';
+import Waving from './Waving';
+
+
 
 
 
@@ -26,8 +29,15 @@ function Homepage() {
            <AiFillLinkedin />
            <SiQuora />
         </div>
+        <div className=' mt-5'>
+          <Waving />
+        </div>
+        <div className='mt-8'>
+        <hr />
+          <Services />
+        </div>
         <div>
-           <Image src={wave} /> 
+          <Card />
         </div>
       </div>
     )
