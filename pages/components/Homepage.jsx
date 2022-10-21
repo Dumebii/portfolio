@@ -1,9 +1,10 @@
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillQuora} from 'react-icons/ai'
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillQuora, AiFillGithub} from 'react-icons/ai'
 import {SiQuora} from 'react-icons/si'
 import Card from './Card';
+import Images from './Images';
+import Portfolio from './Portfolio';
 import Services from './Services';
 import Waving from './Waving';
-
 
 
 
@@ -14,20 +15,29 @@ function Homepage() {
         <h2 className='text-5xl py-2 text-teal-600 font-medium'>
            Dumebi Okolo 
         </h2>
-        <h3 className='text-2xl py-2'>
+        <h3 className='lg:text-3xl text-2xl py-2'>
             Developer and writer
         </h3>
-        <p className='text-medium py-5 leading-8 text-grey-800'>
+        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800'>
            I am a frontend web developer,
             providing services for website building and management. 
         </p>
-        <p>
+        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800'>
             I write explanatory and helpful tutorial articles on <a href="">Hashnode.</a>
         </p>
         <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600'>
-           <AiFillTwitterCircle />
-           <AiFillLinkedin />
-           <SiQuora />
+           <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer'>
+             <AiFillTwitterCircle />
+           </a>
+           <a href='https://www.linkedin.com/in/dumebi-okolo/' className='cusor-pointer'>
+             <AiFillLinkedin />
+           </a>
+           <a href='' className='cusor-pointer'>
+             <SiQuora />
+           </a>
+           <a href='https://github.com/Dumebii' className='cusor-pointer'>
+            <AiFillGithub />
+           </a>
         </div>
         <div className=' mt-5'>
           <Waving />
@@ -35,9 +45,21 @@ function Homepage() {
         <div className='mt-8'>
         <hr />
           <Services />
+          <hr />
         </div>
-        <div>
+        <div className='mt-10'>
           <Card />
+          <hr />
+        </div>
+        <div className='mt-10'>
+          <Portfolio />
+          <hr />
+        </div>
+        <div className='mt-10'>
+          <h3 className='text-teal-600 font-black text-5xl m-10'>
+            Some project highlights
+          </h3>
+          <Images />
         </div>
       </div>
     )

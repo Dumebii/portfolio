@@ -3,7 +3,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import Homepage from './Homepage';
 
 
-function NavBar() {
+function NavBar(props) {
 return(
     <section className="min-h-screen">
       <nav className='py-10 mb-12 flex justify-between'>
@@ -12,13 +12,13 @@ return(
         </h1>
         <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
+              <BsFillMoonStarsFill onClick={props.onclick} className='cursor-pointer text-2xl' />
             </li>
             <li><a 
             className=' bg-gradient-to-r
              from-cyan-500 to-teal-500
               text-white px-4 py-2 
-              rounded-md ml-8' href="">Linkedin</a></li>
+              rounded-md ml-8' href="https://www.linkedin.com/in/dumebi-okolo/">Linkedin</a></li>
         </ul>
       </nav>
       <Homepage />
