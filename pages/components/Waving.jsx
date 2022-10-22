@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import wave from '../public/wave.jpg'
 import {MdWavingHand} from 'react-icons/md'
 
 

@@ -1,6 +1,5 @@
-import { BsCardChecklist } from "react-icons/bs"
-import consulting from '../public/consulting.png'
-import code from '../public/code.png'
+import consulting from '../../public/consulting.png'
+import code from '../../public/code.png'
 import {TfiWrite} from 'react-icons/tfi'
 import Image from "next/image"
 
