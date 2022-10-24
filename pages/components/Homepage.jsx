@@ -32,7 +32,7 @@ function Homepage() {
            <a href='https://www.linkedin.com/in/dumebi-okolo/' className='cusor-pointer'>
              <AiFillLinkedin />
            </a>
-           <a href='' className='cusor-pointer'>
+           <a href='https://www.quora.com/profile/Dumebi-13' className='cusor-pointer'>
              <SiQuora />
            </a>
            <a href='https://github.com/Dumebii' className='cusor-pointer'>
