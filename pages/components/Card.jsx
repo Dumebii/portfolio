@@ -6,7 +6,7 @@ import Image from "next/image"
 function Card() {
  return(
     <div  className="lg:flex gap-10">
-      <div className="text-center shadow-lg p-6 rounded-xl my-6">
+      <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-white">
         <Image src={code} width={100} height={100} />
         <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Website UIs</h3>
         <p className="py-2">
@@ -39,7 +39,7 @@ function Card() {
         </li>
          </ul>
       </div>
-     <div className="text-center shadow-lg p-6 rounded-xl my-6">
+     <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-white">
         <TfiWrite className='w-[120px] h-[120px] m-auto text-sky-600' />
         <h3 className="text-lg font-medium pt-8 pb-2">
             Well written articles
@@ -56,7 +56,7 @@ function Card() {
             <br /> <br /><a href="https://www.linkedin.com/in/dumebi-okolo/" className="text-red-600 py-1 mb-10">Linkedin</a>
         </p>
      </div>
-     <div className="text-center shadow-lg p-6 rounded-xl my-6">
+     <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-white">
         <Image src={consulting} width={100} height={100} />
         <h3 className="text-lg font-medium pt-8 pb-2">Great Developer Relation skills</h3>
         <p className="py-2">
