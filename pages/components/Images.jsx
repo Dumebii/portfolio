@@ -14,14 +14,14 @@ function Images() {
          <div className='lg:flex flex-3 gap-20'>
             <div className='shadow-lg p-6 rounded-xl my-6'>
                 <Image src={web1} />
-                <p className="text-md py-2 leading-8 text-grey-800">
+                <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                     This is a notepad application that can be accesed at
                     <a href="6eluj6.csb.app/" className="text-red-800 cusor-pointer text-lg font-black"> this website</a>
                 </p>
               </div>
           <div className='shadow-lg p-6 rounded-xl my-6'>
                 <Image src={web2} />
-                <p className="text-md py-2 leading-8 text-grey-800">
+                <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                     This is a next-gen bank website created with beautiful UI and Ux that can be accesed at 
                     <a href="https://dhoobank.netlify.app" className="text-red-800 cusor-pointer text-lg font-black"> this website</a>
                 </p> </div>
@@ -29,7 +29,7 @@ function Images() {
           <div className='lg:flex flex-3 gap-20 mt-5'>
           <div className='shadow-lg p-6 rounded-xl my-6'>
                 <Image src={web3} />
-                <p className="text-md py-2 leading-8 text-grey-800">
+                <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                     This is an application that gives off the meaning of various emojis. It can be accesed at 
                     <a href="emojidiky.netlify.app/" className="text-red-800 cusor-pointer text-lg font-black"> this website</a>
                 </p>
@@ -37,7 +37,7 @@ function Images() {
 
        <div className='shadow-lg p-6 rounded-xl my-6'>
             <Image src={web4} />
-            <p className="text-md py-2 leading-8 text-grey-800">
+            <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                 This is a movie streaming application UI and Ux that can be accesed at 
                 <a href="bestmoviez.netlify.app/" className="text-red-800 cusor-pointer text-lg font-black"> this website</a>
             </p>
@@ -47,14 +47,14 @@ function Images() {
         <div className='lg:flex flex-3 gap-20 mt-5'>  
        <div className='shadow-lg p-6 rounded-xl my-6'>
             <Image src={web5} />
-            <p className="text-md py-2 leading-8 text-grey-800">
+            <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                 This is a to-do list application that can be accesed at 
                 <a href="7409cj.csb.app/" className="text-red-800 cusor-pointer text-lg font-black"> this website</a>
             </p>
        </div>
        <div className='shadow-lg p-6 rounded-xl my-6'>
             <Image src={web6} />
-            <p className="text-md py-2 leading-8 text-grey-800">
+            <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                 This is a dating website application with beautiful uI and uX that can be accesed at 
                 <a href="dumebii.github.io/TinDog/" className="text-red-800 cusor-pointer text-lg font-black"> this website</a>
             </p>
