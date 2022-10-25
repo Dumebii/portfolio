@@ -15,17 +15,17 @@ function Homepage() {
         <h2 className='text-5xl py-2 text-teal-600 font-medium'>
            Dumebi Okolo 
         </h2>
-        <h3 className='lg:text-3xl text-2xl py-2'>
+        <h3 className='lg:text-3xl text-2xl py-2 dark:text-white'>
             Developer and writer
         </h3>
-        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800'>
+        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
            I am a frontend web developer,
             providing services for website building and management. 
         </p>
-        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800'>
+        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
             I write explanatory and helpful tutorial articles on <a href="">Hashnode.</a>
         </p>
-        <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600'>
+        <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600 dark:text-white'>
            <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer'>
              <AiFillTwitterCircle />
            </a>
