@@ -5,7 +5,7 @@ import Image from "next/image"
 
 function Card() {
  return(
-    <div  className="lg:flex gap-10">
+    <div  className="lg:flex gap-10 dark:bg-sky-600">
       <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-white-600">
         <Image src={code} width={100} height={100} />
         <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Website UIs</h3>
