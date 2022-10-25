@@ -28,7 +28,7 @@ function Card() {
         <li className="text-grey-800 py-1">
             Reactjs
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:text-white">
             Nextjs
         </li>
         <li className="text-grey-800 py-1">
