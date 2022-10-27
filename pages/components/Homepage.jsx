@@ -16,7 +16,7 @@ function Homepage() {
            Dumebi Okolo 
         </h2>
         <h3 className='lg:text-3xl text-2xl py-2 dark:text-white'>
-            Developer and writer
+            Developer, Marketer and  Writer
         </h3>
         <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
            I am a frontend web developer,
