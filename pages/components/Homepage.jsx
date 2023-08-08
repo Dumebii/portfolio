@@ -5,6 +5,7 @@ import Images from './Images';
 import Portfolio from './Portfolio';
 import Services from './Services';
 import Waving from './Waving';
+import Footer from './Footer';
 
 
 
@@ -12,30 +13,30 @@ import Waving from './Waving';
 function Homepage() {
     return(
       <div className='text-center p-10'>
-        <h2 className='text-5xl py-2 text-teal-600 font-medium'>
+        <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-white'>
            Dumebi Okolo 
         </h2>
         <h3 className='lg:text-3xl text-2xl py-2 dark:text-white'>
-            Developer, Marketer and  Writer
+            Developer and writer
         </h3>
-        <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
+        <p className='lg:text-2xl text-medium py-5 leading-8 dark:text-white text-grey-800'>
            I am a frontend web developer,
             providing services for website building and management. 
         </p>
         <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
             I write explanatory and helpful tutorial articles on <a href="">Hashnode.</a>
         </p>
-        <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600 dark:text-white'>
-           <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer'>
+        <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600'>
+           <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer dark:text-cyan-400'>
              <AiFillTwitterCircle />
            </a>
-           <a href='https://www.linkedin.com/in/dumebi-okolo/' className='cusor-pointer'>
+           <a href='https://www.linkedin.com/in/dumebi-okolo/' className='cusor-pointer dark:text-cyan-400'>
              <AiFillLinkedin />
            </a>
-           <a href='https://www.quora.com/profile/Dumebi-13' className='cusor-pointer'>
+           <a href='' className='cusor-pointer dark:text-red-600'>
              <SiQuora />
            </a>
-           <a href='https://github.com/Dumebii' className='cusor-pointer'>
+           <a href='https://github.com/Dumebii' className='cusor-pointer dark:text-cyan-400'>
             <AiFillGithub />
            </a>
         </div>
@@ -56,11 +57,13 @@ function Homepage() {
           <hr />
         </div>
         <div className='mt-10'>
-          <h3 className='text-teal-600 font-black text-5xl m-10'>
+          <h3 className='text-teal-600 font-black text-5xl m-10 dark:text-white'>
             Some project highlights
           </h3>
           <Images />
         </div>
+        <div className='mt-10'>
+        <Footer /></div>
       </div>
     )
 }

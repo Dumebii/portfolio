@@ -16,7 +16,7 @@ export default function Home() {
         <title>Dumebi Okolo</title>
         <meta name="portfolio" content="Great frontend portfolio website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/code.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className='bg-white px-10 dark:bg-gray-900'>

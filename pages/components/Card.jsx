@@ -6,40 +6,40 @@ import Image from "next/image"
 function Card() {
  return(
     <div  className="lg:flex gap-10">
-      <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-neutral-50">
+      <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-slate-200">
         <Image src={code} width={100} height={100} />
         <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Website UIs</h3>
         <p className="py-2">
         Bringing to life your beautiful design templates
         </p>
-        <h4 className="py-4 text-teal-600">
+        <h4 className="py-4 text-teal-600 dark:text-black dark:font-bold">
         Frontend Tools I work with:
        </h4>
         <ul>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200 ">
             HTML
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200">
             CSS
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200">
             Javascript
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200">
             Reactjs
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200">
             Nextjs
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200">
             Tailwindcss
         </li>
-        <li className="text-grey-800 py-1">
+        <li className="text-grey-800 py-1 dark:bg-gray-200">
             Bootstrap
         </li>
          </ul>
       </div>
-     <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-neutral-50">
+     <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-slate-200">
         <TfiWrite className='w-[120px] h-[120px] m-auto text-sky-600' />
         <h3 className="text-lg font-medium pt-8 pb-2">
             Well written articles
@@ -50,15 +50,17 @@ function Card() {
         <h4 className="py-4 text-teal-600 mb-3">
             I write on:
         </h4>
-        <p>
+        <p className='dark:bg-gray-200 dark:p-6'>
             <a href="https://dumebi.hashnode.dev/" className="text-red-600 py-1 mb-10">HashNode</a>
-            <br /> <br /> <a href="https://www.quora.com/profile/Dumebi-13" className="text-red-600 py-1 mb-10">Quora</a>
-            <br /> <br /><a href="https://www.linkedin.com/in/dumebi-okolo/" className="text-red-600 py-1 mb-10">Linkedin</a>
+            <br /> <br /> <a href="https://www.quora.com/profile/Dumebi-13" 
+            className="text-red-600 py-1 mb-10">Quora</a>
+            <br /> <br /><a href="https://www.linkedin.com/in/dumebi-okolo/" 
+            className="text-red-600 py-1 mb-10">Linkedin</a>
         </p>
      </div>
-     <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-neutral-50">
+     <div className="text-center shadow-lg p-6 rounded-xl my-6 dark:bg-slate-200">
         <Image src={consulting} width={100} height={100} />
-        <h3 className="text-lg font-medium pt-8 pb-2">Great Developer Relation skills</h3>
+        <h3 className="text-lg font-medium pt-8 pb-2">Great Developer Relations skills</h3>
         <p className="py-2">
           Having years of experience in FinTech marketing, <br/>
           <span className="py-4 text-teal-600">
