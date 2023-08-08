@@ -12,7 +12,7 @@ return(
         </h1>
         <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill onClick={props.onclick} className='cursor-pointer text-2xl' />
+              <BsFillMoonStarsFill onClick={props.onclick} className='cursor-pointer text-2xl dark:text-white' />
             </li>
             <li><a 
             className=' bg-gradient-to-r
