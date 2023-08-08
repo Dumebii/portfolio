@@ -12,14 +12,14 @@ function Images() {
       <div> 
       
          <div className='lg:flex flex-3 gap-20'>
-            <div className='shadow-lg shadow-slate-200 p-6 rounded-xl my-6'>
+            <div className='shadow-lg dark:shadow-slate-200 shadow-red-500 p-6 rounded-xl my-6'>
                 <Image src={web1} />
                 <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                     This is a notepad application that can be accesed at
                     <a href="https://6eluj6.csb.app" target="_blank" className="text-red-600 cusor-pointer text-lg font-black"> this website</a>
                 </p>
               </div>
-          <div className='shadow-lg shadow-slate-200 p-6 rounded-xl my-6'>
+          <div className='shadow-lg dark:shadow-slate-200 shadow-red-500 p-6 rounded-xl my-6'>
                 <Image src={web2} />
                 <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                     This is a next-gen bank website created with beautiful UI and Ux that can be accesed at 
@@ -27,7 +27,7 @@ function Images() {
                 </p> </div>
           </div>
           <div className='lg:flex flex-3 gap-20 mt-5'>
-          <div className='shadow-lg shadow-slate-200 p-6 rounded-xl my-6'>
+          <div className='shadow-lg dark:shadow-slate-200 shadow-red-500 p-6 rounded-xl my-6'>
                 <Image src={web3} />
                 <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                     This is an application that gives off the meaning of various emojis. It can be accesed at 
@@ -35,7 +35,7 @@ function Images() {
                 </p>
           </div>
 
-       <div className='shadow-lg shadow-slate-200 p-6 rounded-xl my-6'>
+       <div className='shadow-lg dark:shadow-slate-200 shadow-red-500 p-6 rounded-xl my-6'>
             <Image src={web4} />
             <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                 This is a movie streaming application UI and Ux that can be accesed at 
@@ -45,14 +45,14 @@ function Images() {
          </div>
           
         <div className='lg:flex flex-3 gap-20 mt-5'>  
-       <div className='shadow-lg shadow-slate-200 p-6 rounded-xl my-6'>
+       <div className='shadow-lg dark:shadow-slate-200 shadow-red-500 p-6 rounded-xl my-6'>
             <Image src={web5} />
             <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                 This is a to-do list application that can be accesed at 
                 <a href="https://7409cj.csb.app/" target="_blank" className="text-red-600 cusor-pointer text-lg font-black"> this website</a>
             </p>
        </div>
-       <div className='shadow-lg shadow-slate-200 p-6 rounded-xl my-6'>
+       <div className='shadow-lg dark:shadow-slate-200 shadow-red-500 p-6 rounded-xl my-6'>
             <Image src={web6} />
             <p className="text-md py-2 leading-8 text-grey-800 dark:text-white">
                 This is a dating website application with beautiful uI and uX that can be accesed at 

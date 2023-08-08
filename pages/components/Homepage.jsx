@@ -8,8 +8,6 @@ import Waving from './Waving';
 import Footer from './Footer';
 
 
-
-
 function Homepage() {
     return(
       <div className='text-center p-10'>
@@ -17,16 +15,16 @@ function Homepage() {
            Dumebi Okolo 
         </h2>
         <h3 className='lg:text-3xl text-2xl py-2 dark:text-white'>
-            Developer and writer
+            Front-end Developer and Technical Writer
         </h3>
         <p className='lg:text-2xl text-medium py-5 leading-8 dark:text-white text-grey-800'>
-           I am a frontend web developer,
-            providing services for website building and management. 
-        </p>
+        Coding Connections with Words: Frontend Developer Par Excellence  <br />
+        Masters Developer Relations Through the Art of Technical Prose        </p>
         <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
             I write explanatory and helpful tutorial articles on <a href="">Hashnode.</a>
         </p>
-        <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600'>
+        <hr className='m-6' />
+        <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600 m-5'>
            <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer dark:text-cyan-400'>
              <AiFillTwitterCircle />
            </a>
@@ -40,6 +38,7 @@ function Homepage() {
             <AiFillGithub />
            </a>
         </div>
+        <hr />
         <div className=' mt-5'>
           <Waving />
         </div>
