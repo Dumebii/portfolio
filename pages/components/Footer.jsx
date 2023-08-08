@@ -13,7 +13,7 @@ function Footer() {
     return(
        <div>
         <footer>
-          <h1 className="text-2xl font-bold">{stringMonth} {year}</h1>
+          <h1 className="text-2xl font-bold dark:text-white">{stringMonth} {year}</h1>
         </footer>
        </div> 
     )
