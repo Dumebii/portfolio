@@ -21,20 +21,20 @@ function Homepage() {
         Coding Connections with Words: Frontend Developer Par Excellence  <br />
         Masters Developer Relations Through the Art of Technical Prose        </p>
         <p className='lg:text-2xl text-medium py-5 leading-8 text-grey-800 dark:text-white'>
-            I write explanatory and helpful tutorial articles on <a href="">Hashnode.</a>
+            I write explanatory and helpful tutorial articles on <a href="dumebi.hashnode.dev" target='_blank' className='hover:text-blue-600'>Hashnode.</a>
         </p>
         <hr className='m-6' />
         <div className='flex text-5xl justify-center gap-16 py-3 text-grey-600 m-5'>
-           <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer dark:text-cyan-400'>
+           <a href='https://twitter.com/DumebiTheWriter' className='cusor-pointer dark:text-blue-800'>
              <AiFillTwitterCircle />
            </a>
-           <a href='https://www.linkedin.com/in/dumebi-okolo/' className='cusor-pointer dark:text-cyan-400'>
+           <a href='https://www.linkedin.com/in/dumebi-okolo/' className='cusor-pointer dark:text-blue-500'>
              <AiFillLinkedin />
            </a>
            <a href='' className='cusor-pointer dark:text-red-600'>
              <SiQuora />
            </a>
-           <a href='https://github.com/Dumebii' className='cusor-pointer dark:text-cyan-400'>
+           <a href='https://github.com/Dumebii' className='cusor-pointer dark:text-gray-400'>
             <AiFillGithub />
            </a>
         </div>
